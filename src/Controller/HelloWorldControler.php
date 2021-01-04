@@ -39,7 +39,7 @@ class HelloWorldControler extends \Symfony\Bundle\FrameworkBundle\Controller\Abs
     function liste():Response{
         return $this->render('liste.html.twig', [
             'liste'=> [
-                ['prenom' => 'Ali','nom' => 'Baba'],
+                ['prenom' => 'Ala','nom' => 'Zero'],
                 ['prenom' => 'Ala','nom' => 'Dun'],
                 ['prenom' => 'Ala','nom' => 'Deux'],
             ]
