@@ -14,3 +14,11 @@ formReceive:
 liste:
     path: /liste
     controller: App\Controller\HelloWorldControler::liste
+loginForm:
+    path: /login
+    controller: App\Controller\LoginController::loginForm
+    methods: GET | POST
+userForm:
+    path: /user/create
+    controller: App\Controller\UserController::create
+    methods: GET | POST

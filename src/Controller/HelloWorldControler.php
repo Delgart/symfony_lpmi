@@ -18,6 +18,8 @@ class HelloWorldControler extends \Symfony\Bundle\FrameworkBundle\Controller\Abs
         /**$returnString = "Hello $prenom";*/
         return $this->render('hello.html.twig', [
             'prenom'=>$prenom]);
+        /**$message = "Hello $prenom";
+        return new Response($message);*/
 
     }
 
